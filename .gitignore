@@ -1,0 +1,71 @@
+# AWS Credentials - NEVER COMMIT THESE!
+*.pem
+*.key
+*aws*.txt
+credentials
+config
+.aws/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+*.ppk
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Secrets
+secrets/
+*.secret
+*.secrets
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+tmp/
+temp/
+*.tmp
